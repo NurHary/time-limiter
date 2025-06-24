@@ -6,4 +6,11 @@ edition = "2024"
 [dependencies]
 eframe = "0.31.1"
 egui = "0.31.1"
+egui_extras = "0.31.1"
 env_logger = "0.11.8"
+rodio = "0.20.1"
+
+
+[[example]]
+name="jalrod"
+path="examples/jalrodio.rs"
