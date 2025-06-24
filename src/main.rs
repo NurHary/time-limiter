@@ -9,7 +9,8 @@ fn main() {
             .with_inner_size([800.0, 50.0])
             .with_resizable(false)
             .with_decorations(false)
-            .with_position([1.0, 1020.0]),
+            //.with_taskbar(false)
+            .with_position([480.0, 16.0]),
         ..Default::default()
     };
     let _ = eframe::run_native(
